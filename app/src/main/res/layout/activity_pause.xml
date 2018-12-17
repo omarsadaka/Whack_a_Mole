@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical"
+    android:id="@+id/login_form">
+	<LinearLayout style="@style/LevelInfoContainer">
+	    <LinearLayout style="@style/LevelInfoSidePadding"/>
+	    <LinearLayout
+	        style="@style/LevelInfoBackground" >
+	        <LinearLayout style="@style/LevelInfoSection"
+	            android:id="@+id/titles">
+		        <TextView
+		            android:id="@+id/pause_title"
+		            style="@style/LevelInfoTitle"
+		            android:text="@string/paused" />
+	        </LinearLayout>
+	        <LinearLayout
+	            style="@style/LevelInfoSection"
+	            android:id="@+id/targets"
+		        android:orientation="horizontal">
+	            <LinearLayout style="@style/LevelInfoTargetContainer">
+			        <ImageView
+			            android:id="@+id/crying_meerkat_image"
+						style="@style/LevelInfoPicture"
+						android:layout_width="75dp"
+						android:layout_height="75dp"
+			            android:paddingTop="2dp"
+			            android:src="@drawable/crying_meerkat"
+			            android:contentDescription="@string/clock_description" />
+			        <TextView
+			            android:id="@+id/level_info_start_meerkats"
+						style="@style/LevelInfoTargets" />
+		        </LinearLayout>
+    		</LinearLayout>
+	        <LinearLayout style="@style/LevelInfoSection"
+	            android:id="@+id/buttons"
+		        android:orientation="horizontal"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp">
+		        <Button
+		            android:id="@+id/level_pause_unpause_button"
+		            style="@style/LevelInfoButtonSmall"
+		            android:background="@drawable/button"
+		            android:text="@string/unpause" />
+	        </LinearLayout>
+	    </LinearLayout>
+	    <LinearLayout style="@style/LevelInfoSidePadding" />
+	</LinearLayout>
+</LinearLayout>

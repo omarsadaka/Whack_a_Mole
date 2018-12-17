@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- The title -->
+    <ImageView
+        android:id="@+id/title"
+        android:contentDescription="@string/title_image"
+        style="@style/LevelSelectTitleImage" />
+
+    <!-- Level numbers -->
+    <LinearLayout style="@style/LevelSelectBackground">
+
+        <!-- Level 1 - 5 -->
+        <LinearLayout style="@style/LevelSelectColumn" >
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView 
+                    android:id="@+id/level1" 
+                    style="@style/LevelSelectTextYellow"
+                    android:text="1" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level2"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="2" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level3"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="3" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level4"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="4" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level5"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Level  6 - 10 -->
+        <LinearLayout style="@style/LevelSelectColumn">
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level6"
+					style="@style/LevelSelectTextYellow"
+                    android:text="6" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level7"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="7" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level8"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="8" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level9"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="9" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level10"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="10" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Level  11 - 15 -->
+        <LinearLayout style="@style/LevelSelectColumn">
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level11"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="11" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level12"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="12" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level13"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="13" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level14"
+                    style="@style/LevelSelectTextYellow"
+                    android:text="14" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level15"
+					style="@style/LevelSelectTextYellow"
+                    android:text="15" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Level  16 - 20 -->
+        <LinearLayout style="@style/LevelSelectColumn">
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level16"
+                    style="@style/LevelSelectTextRed"
+                    android:text="16" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level17"
+                    style="@style/LevelSelectTextRed"
+                    android:text="17" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level18"
+                    style="@style/LevelSelectTextRed"
+                    android:text="18" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level19"
+                    style="@style/LevelSelectTextRed"
+                    android:text="19" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/LevelSelectButton">
+                <TextView
+                    android:id="@+id/level20"
+                    style="@style/LevelSelectTextRed"
+                    android:text="20" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

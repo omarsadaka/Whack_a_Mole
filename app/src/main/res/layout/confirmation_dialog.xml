@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/_3sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/opps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp"
+                android:text="@string/opps"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/opps"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingTop="5dp"
+                android:text="@string/sign_in"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/noBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textAlert"
+                android:layout_marginTop="15dp"
+                android:text="No"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/button"/>
+
+            <Button
+                android:id="@+id/yesBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/noBtn"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:text="Yes"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/button"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

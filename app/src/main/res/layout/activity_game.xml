@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/game_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.organizers_group.whack_a_mole.game.entities.GameActivity" >
+    
+    <RelativeLayout android:id='@+id/game_header' style="@style/GameHeader">
+        <ImageView
+            android:id="@+id/game_clock_image"
+            android:contentDescription="@string/clock_description"
+            style="@style/GameClockImage" />
+        <TextView
+            android:id="@+id/game_time"
+            style="@style/GameTime" />
+        <ImageView
+            android:id="@+id/game_pause_image"
+            android:contentDescription="@string/pause_description"
+            style="@style/GamePauseImage" />
+        <ImageView
+            android:id="@+id/game_meerkat_image"
+            android:contentDescription="@string/meerkat_description"
+            style="@style/GameMeerkatImage" />
+        <TextView
+            android:id="@+id/game_score"
+            style="@style/GameMeerkatCount" />
+    </RelativeLayout>
+    
+    <!-- When the game starts the currently invisible GameBoard 
+        is made visible and the placeholder background is hidden. -->
+    <com.organizers_group.whack_a_mole.game.loops.GraphicsLoop
+        android:id="@+id/canvas"
+        android:contentDescription="@string/game_description"
+        style="@style/GameBoard"
+        android:visibility="gone" />
+
+    <ImageView
+		android:id="@+id/game_background_placeholder"
+		android:contentDescription="@string/placeholder_description"
+		style="@style/GameBoard"
+		android:src="@drawable/background"
+		android:scaleType="fitXY" />
+    
+    <!--<com.google.android.gms.ads.AdView android:id="@+id/adView"-->
+                         <!--android:layout_width="wrap_content"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--ads:adUnitId="ca-app-pub-4939165211937338/6197091401"-->
+                         <!--ads:adSize="SMART_BANNER" />-->
+</LinearLayout>

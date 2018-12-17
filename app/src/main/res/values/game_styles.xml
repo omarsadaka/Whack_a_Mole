@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="GameClockImage">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:src">@drawable/clock</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="GamePauseImage">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:src">@drawable/pause</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    
+    <style name="GameTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_marginRight">@dimen/header_margin</item>
+        <item name="android:layout_toRightOf">@id/game_clock_image</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="GameMeerkatImage">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:src">@drawable/meerkat</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="GameMeerkatCount">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_marginRight">@dimen/header_margin</item>
+        <item name="android:layout_toLeftOf">@id/game_meerkat_image</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="GameBoard">
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">0.9</item>
+        <item name="android:keepScreenOn">true</item>
+    </style>
+    
+    <style name="GameHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:background">@drawable/gradient_bg</item>
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:paddingLeft">@dimen/header_margin</item>
+        <item name="android:paddingRight">@dimen/header_margin</item>
+    </style>
+</resources>

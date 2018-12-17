@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "93041520426",
+    "firebase_url": "https://game-2bcea.firebaseio.com",
+    "project_id": "game-2bcea",
+    "storage_bucket": "game-2bcea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93041520426:android:50abaea3866dcdb3",
+        "android_client_info": {
+          "package_name": "com.organizers_group.whack_a_mole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93041520426-k54un9oevqk3102igqg00cd4872toumq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.organizers_group.whack_a_mole",
+            "certificate_hash": "80cad882ac4087c29e9a9682466d845c50811233"
+          }
+        },
+        {
+          "client_id": "93041520426-4utjeb6qcfhlmb20jq4k79h0i3u15uv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXmxaWYBTvogyVbgsPo5Fxzf8QsotLZio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93041520426-4utjeb6qcfhlmb20jq4k79h0i3u15uv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

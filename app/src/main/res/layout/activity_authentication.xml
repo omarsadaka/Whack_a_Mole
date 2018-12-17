@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_end_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/LevelInfoContainer">
+
+        <LinearLayout style="@style/LevelInfoSidePadding" />
+
+        <LinearLayout
+          android:layout_marginBottom="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/enter_data_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/enter_data"/>
+
+            <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+            android:background="@drawable/et_bg"
+            android:hint="@string/email"
+            android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/passwordEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:background="@drawable/et_bg"
+                android:hint="@string/password"
+                android:padding="8dp" />
+
+            <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_bg"
+            android:hint="@string/name"
+            android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/ageEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/et_bg"
+                android:hint="@string/age"
+                android:padding="8dp" />
+
+
+            <Button
+            android:id="@+id/goNext"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/button"
+            android:text="@string/go_next"
+            android:textColor="#dcbf75"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/level_info"-->
+            <!--style="@style/LevelInfoBackground"-->
+            <!--android:orientation="vertical">-->
+
+
+
+
+            <!--<EditText-->
+        <!--android:id="@+id/emailEt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="@drawable/et_bg"-->
+        <!--android:hint="@string/email"-->
+        <!--android:padding="8dp" />-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/ageEt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="@drawable/et_bg"-->
+        <!--android:hint="@string/password"-->
+        <!--android:padding="8dp" />-->
+        <!--<EditText-->
+        <!--android:id="@+id/nameEt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@drawable/et_bg"-->
+        <!--android:hint="@string/name"-->
+        <!--android:padding="8dp" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/goNext"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:background="@drawable/button"-->
+        <!--android:text="@string/go_next"-->
+        <!--android:textColor="#dcbf75"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold" />-->
+
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout style="@style/LevelInfoSidePadding" />
+    </LinearLayout>
+
+</LinearLayout>

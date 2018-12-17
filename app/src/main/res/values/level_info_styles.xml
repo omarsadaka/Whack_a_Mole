@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LevelInfoContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">0.6</item>
+    </style>
+    
+     <style name="LevelInfoSidePadding">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">0.05</item>
+    </style>
+
+    <style name="LevelInfoTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="LevelInfoDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LevelInfoBackground">
+        <item name="android:layout_height">350dp</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_weight">.7</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:gravity">center</item>
+		<item name="android:background">@drawable/level_info_background_green</item>
+		<item name="android:padding">45dp</item>
+    </style>
+    
+    <style name="LevelInfoSection">
+        <item name="android:layout_height">0dip</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_weight">.33</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:gravity">center</item>
+    </style>
+
+    <style name="LevelInfoPicture">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="LevelInfoTargets">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="LevelInfoTargetContainer">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">.5</item>
+    </style>
+    
+    <style name="LevelInfoButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="LevelInfoButtonSmall">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+    
+    <style name="LevelInfoSpacer">
+        <item name="android:layout_weight">0.2</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+</resources>

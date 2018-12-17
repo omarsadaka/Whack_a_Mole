@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StartScreenTitleImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/title</item>
+    </style>
+
+    <style name="StartScreenImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0sp</item>
+        <item name="android:layout_weight">6</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/start_screen</item>
+    </style>
+
+    <style name="StartScreenStartButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/go_button</item>
+    </style>
+</resources>

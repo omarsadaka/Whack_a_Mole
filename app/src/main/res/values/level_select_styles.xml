@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LevelSelectTitleImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/levels_title</item>
+    </style>
+    
+    <style name="LevelSelectBackground">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">7</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/level_select_background</item>
+    </style>
+    
+    <style name="LevelSelectColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    
+    <style name="LevelSelectButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="LevelSelectTextYellow">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/gradient_level_select_button_yellow</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#256825</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="LevelSelectTextRed" parent="@style/LevelSelectTextYellow">
+        <item name="android:background">@drawable/gradient_level_select_button_red</item>
+        <item name="android:textColor">#e3e96b</item>
+    </style>
+</resources>

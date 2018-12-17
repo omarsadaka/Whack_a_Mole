@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sadaka.loginform.MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wellcom"
+        android:textColor="#fdfcfc"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="5px"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/text"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/sign"
+            android:textColor="#fcfbfb"
+            android:textSize="35sp"
+
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:weightSum="4"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            >
+            <EditText
+                android:id="@+id/name"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:background="@drawable/et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="@string/name"
+
+                />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/et_bg"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="@string/age"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/email"
+                android:background="@drawable/et_bg"
+                android:layout_width="match_parent"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:hint="@string/email"
+
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/et_bg"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="@string/password" />
+            <Button
+                android:id="@+id/signIn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/signin"
+                android:textSize="30sp"
+                android:background="@drawable/button"
+                android:textColor="#fcfbfb"
+                android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

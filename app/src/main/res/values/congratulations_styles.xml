@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CongratulationsBalloonContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_alignBottom">@id/congratulations_background</item>
+    </style>
+    <style name="CongratulationsBalloon">
+        <item name="android:layout_width">0sp</item>
+        <item name="android:layout_height">123dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">invisible</item>
+    </style>    
+    <style name="CongratulationsBalloonGreen" parent="CongratulationsBalloon">
+        <item name="android:src">@drawable/green_balloon</item>
+    </style>
+    <style name="CongratulationsBalloonRed" parent="CongratulationsBalloon">
+        <item name="android:src">@drawable/red_balloon</item>
+    </style>    
+    <style name="CongratulationsBalloonYellow" parent="CongratulationsBalloon">
+        <item name="android:src">@drawable/yellow_balloon</item>
+    </style>
+    <style name="CongratulationsBackgroundImage">
+        <item name="android:layout_width">fill_parent</item>
+      	<item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/congratulations_background</item>
+    </style>
+</resources>
